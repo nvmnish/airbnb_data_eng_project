@@ -1,0 +1,13 @@
+airbnb_project:
+  outputs:
+    dev:
+      account: ***************
+      database: AIRBNB_PRJ
+      password: ***************
+      role: ACCOUNTADMIN
+      schema: dbt_schema
+      threads: 1
+      type: snowflake
+      user: NVMNISH
+      warehouse: COMPUTE_WH
+  target: dev
